@@ -28,7 +28,6 @@ public class Demo2Application implements CommandLineRunner {
         }
         for (int i = 0; i < 100 ; i++) {
             System.out.println(lapService.timeMyLap(System.nanoTime()));
-//            System.out.println("On lap " + i);
             Thread.sleep(500);
         }
     }
