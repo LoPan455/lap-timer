@@ -26,7 +26,7 @@ public class Demo2Application implements CommandLineRunner {
                     envName,
                     env.get(envName));
         }
-        for (int i = 0; i < 100 ; i++) {
+          for (int i = 0; i < 1000 ; i++) {
             System.out.println(lapService.timeMyLap(System.nanoTime()));
             Thread.sleep(500);
         }
